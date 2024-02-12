@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "expoApp",
+    "slug": "expoApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/tapect.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/tapect.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/tapect.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.shivani2024.expoApp"
+    },
+    "web": {
+      "favicon": "./assets/tapect.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "48035515-08c3-46cd-82e5-2121e56904e7"
+      }
+    }
+  }
+}
